@@ -1,0 +1,53 @@
+.section-Locinfo{
+
+    justify-content: center;
+}
+.section-Locinfo h2{
+    font-size: 3rem;
+    margin: 1rem;
+}
+.section-Locinfo h3{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.section-Locinfo ul{
+    list-style: none;
+    margin-top: .2rem;
+    font-size: 1.2rem;
+}
+.section-Locinfo ul li{
+    display: inline-block;
+    padding: 1rem;
+}
+.section-Locinfo ul li b{
+    padding: .3rem;
+}
+.section-Locinfo input{
+    width: 600px;
+    height: 30px;
+    background-color:rgb(20, 19, 19);
+    color: aliceblue;
+    font-family: 'Comic Neue', cursive;
+}
+.section-Locinfo button{
+    height: 35px;
+    background-color:rgb(20, 19, 19);
+    color: aliceblue;
+    border-radius: 10%;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1rem;
+    margin: .5rem;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .section-Locinfo input{
+        width: 200px;
+        height: 30px;
+        background-color:rgb(20, 19, 19);
+        color: aliceblue;
+        font-family: 'Comic Neue', cursive;
+    }
+    .section-Locinfo h2{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+}

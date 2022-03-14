@@ -1,0 +1,28 @@
+.Cards{
+    width: 300px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(112, 107, 107, 0.23) 0px 6px 6px;
+    margin: 2rem;
+    border-radius: 5%;
+    display: inline-block;
+    grid-template-columns: repeat(3, 2fr);
+    word-wrap: break-word;
+}
+
+.Cards img{
+    border-radius: 5% 5% 0% 0%;
+    height: 300px;
+}
+.Cards ul{
+    list-style: none;
+    margin-right: 0%;
+    text-align: left;
+    font-size: 1rem;
+    height: 110px;
+}
+.Cards ul li{
+    height: 44px;
+}
+
+
+
